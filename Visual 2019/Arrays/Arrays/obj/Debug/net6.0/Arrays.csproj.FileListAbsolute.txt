@@ -1,0 +1,15 @@
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\bin\Debug\net6.0\Arrays.exe
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\bin\Debug\net6.0\Arrays.deps.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\bin\Debug\net6.0\Arrays.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\bin\Debug\net6.0\ref\Arrays.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\bin\Debug\net6.0\Arrays.pdb
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\ref\Arrays.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.pdb
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Arrays\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache

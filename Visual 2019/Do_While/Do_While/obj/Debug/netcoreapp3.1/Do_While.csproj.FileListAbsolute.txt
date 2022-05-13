@@ -1,0 +1,14 @@
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.csproj.AssemblyReference.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.AssemblyInfoInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.AssemblyInfo.cs
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.csproj.CoreCompileInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\bin\Debug\netcoreapp3.1\Do_While.exe
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\bin\Debug\netcoreapp3.1\Do_While.deps.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\bin\Debug\netcoreapp3.1\Do_While.runtimeconfig.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\bin\Debug\netcoreapp3.1\Do_While.runtimeconfig.dev.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\bin\Debug\netcoreapp3.1\Do_While.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\bin\Debug\netcoreapp3.1\Do_While.pdb
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.pdb
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Do_While\Do_While\obj\Debug\netcoreapp3.1\Do_While.genruntimeconfig.cache

@@ -1,0 +1,5 @@
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Dobles\Ejercicios Dobles\obj\Debug\netcoreapp3.1\Ejercicios Dobles.csproj.AssemblyReference.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Dobles\Ejercicios Dobles\obj\Debug\netcoreapp3.1\Ejercicios Dobles.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Dobles\Ejercicios Dobles\obj\Debug\netcoreapp3.1\Ejercicios Dobles.AssemblyInfoInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Dobles\Ejercicios Dobles\obj\Debug\netcoreapp3.1\Ejercicios Dobles.AssemblyInfo.cs
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Dobles\Ejercicios Dobles\obj\Debug\netcoreapp3.1\Ejercicios Dobles.csproj.CoreCompileInputs.cache

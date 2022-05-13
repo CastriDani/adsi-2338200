@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "76cLgozY+yLGT324MxNqpOx5zrqHj4aA9wotnhkSHXhquviDX7CE818KBALTWJZTV5ZuvwC3wXTXg31NcHjpHA==",
+  "success": true,
+  "projectFilePath": "D:\\Trabajos Sena\\GitHub\\adsi-2338200\\Visual 2019\\Do_While\\Do_While\\Do_While.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pelir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

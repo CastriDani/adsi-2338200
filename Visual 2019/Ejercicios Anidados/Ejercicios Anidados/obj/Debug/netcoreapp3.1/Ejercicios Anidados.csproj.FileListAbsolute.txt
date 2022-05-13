@@ -1,0 +1,14 @@
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\bin\Debug\netcoreapp3.1\Ejercicios Anidados.exe
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\bin\Debug\netcoreapp3.1\Ejercicios Anidados.deps.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\bin\Debug\netcoreapp3.1\Ejercicios Anidados.runtimeconfig.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\bin\Debug\netcoreapp3.1\Ejercicios Anidados.runtimeconfig.dev.json
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\bin\Debug\netcoreapp3.1\Ejercicios Anidados.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\bin\Debug\netcoreapp3.1\Ejercicios Anidados.pdb
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.csproj.AssemblyReference.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.AssemblyInfoInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.AssemblyInfo.cs
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.csproj.CoreCompileInputs.cache
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.dll
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.pdb
+D:\Trabajos Sena\GitHub\adsi-2338200\Visual 2019\Ejercicios Anidados\Ejercicios Anidados\obj\Debug\netcoreapp3.1\Ejercicios Anidados.genruntimeconfig.cache
