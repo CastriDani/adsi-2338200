@@ -230,6 +230,9 @@
         li.steel{
             background: url(images/pokedex/iconSteel.svg) no-repeat center;
         }  
+        li.fairy{
+            background: url(images/pokedex/iconFairy.svg) no-repeat center;
+        }  
         figure.pokedex section#pokemons-container div.card figure {
             margin: 0;
             padding: 0;
@@ -376,6 +379,15 @@
             background: url(images/pokedex/back.svg) no-repeat center center;
             border: none;
         }
+        input.search{
+            position: absolute;
+            margin-top: 115px;
+            background: none;
+            border: none;
+            margin-left: 40px;
+            width: 280px;
+            border-style: none;
+        }
     </style>
 </head>
 <body>
@@ -391,9 +403,9 @@
             </figure>
             <figure class="pokedex stage02 animate__animated hide">
                 <button class="btn-back btn-white"></button>
-                <section id="pokemons-container">
-   
-                </section>
+                <input type="text" class="search" placeholder="Search you favorite Pokemon">
+
+                <section id="pokemons-container"></section>
             </figure>
             <figure class="pokedex stage03 animate__animated hide">
                 <button class="btn-back btn-dark"></button>
@@ -582,8 +594,8 @@
                 if (type.type.name == "electric") {
                     typeLi.classList.add("electric")
                 }
-                if (type.type.name == "grund") {
-                    typeLi.classList.add("grund")
+                if (type.type.name == "ground") {
+                    typeLi.classList.add("ground")
                 }
                 if (type.type.name == "psychic") {
                     typeLi.classList.add("psychic")
@@ -608,6 +620,9 @@
                 }
                 if (type.type.name == "steel") {
                     typeLi.classList.add("steel")
+                }
+                if (type.type.name == "fairy") {
+                    typeLi.classList.add("fairy")
                 }
 
                 ul.append(typeLi);
