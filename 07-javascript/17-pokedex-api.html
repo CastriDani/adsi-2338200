@@ -381,13 +381,17 @@
         }
         input.search{
             position: absolute;
-            margin-top: 115px;
-            background: none;
+            margin-top: 100px;
+            background-color: #fff;
+            opacity: 80%;
             border: none;
-            margin-left: 40px;
-            width: 280px;
+            border-radius: 20px;
+            width: 326px;
+            height: 33px;
             border-style: none;
+            padding-left: 20px;
         }
+        
     </style>
 </head>
 <body>
@@ -403,8 +407,7 @@
             </figure>
             <figure class="pokedex stage02 animate__animated hide">
                 <button class="btn-back btn-white"></button>
-                <input type="text" class="search" placeholder="Search you favorite Pokemon">
-
+                <input type="text" class="search" name="buscador" id="buscador" placeholder="Search you favorite Pokemon">
                 <section id="pokemons-container"></section>
             </figure>
             <figure class="pokedex stage03 animate__animated hide">
@@ -450,8 +453,18 @@
             </figure>
         </section>
     </main>
-
     <script>
+        //SEARCH POKEMONS
+        // document.addEventListener("keyup" , e=>{
+        //     if(e.target.matches("buscador")){
+        //         document.querySelectorAll(".pokemon").forEach(pokemon =>{
+        //             pokemon.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+        //             ?pokemon.classList.remove("filtro")
+        //             :pokemon.classList.add("filtro")
+        //         })
+        //     }
+        // })
+
         // Vars
         const btnEnter = document.querySelector('.btn-enter');
         const btnWhite = document.querySelector('.btn-white');
