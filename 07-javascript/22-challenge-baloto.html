@@ -219,10 +219,10 @@
 
         btn_next.addEventListener('click', (e) => {
             if (num_style < ball_styles.length) {
-                ball_style.classList.remove('ball-normal', 'ball-merry', 'ball-wish', 'animate__bounceInLeft', 'animate__bounceInRight')
+                ball_style.classList.remove('ball-normal', 'ball-merry', 'ball-wish', 'animate__flipInX', 'animate__bounceInRight')
                 setTimeout(() => {
                     ball_style.classList.add(ball_styles[num_style])
-                    ball_style.classList.add('animate__bounceInLeft')
+                    ball_style.classList.add('animate__flipInX')
                 }, 50)
                 //console.log(num_style)
                 if (num_style == ball_styles.length-1) {
@@ -234,10 +234,10 @@
         })
         btn_prev.addEventListener('click', (e) => {
             if (num_style > -1) {
-                ball_style.classList.remove('ball-normal', 'ball-merry', 'ball-wish', 'animate__bounceInLeft', 'animate__bounceInRight')
+                ball_style.classList.remove('ball-normal', 'ball-merry', 'ball-wish', 'animate__flipInX', 'animate__bounceInRight')
                 setTimeout(() => {
                     ball_style.classList.add(ball_styles[num_style])
-                    ball_style.classList.add('animate__bounceInRight')
+                    ball_style.classList.add('animate__flipInX')
                 }, 50)
                 //console.log(num_style)
                 if (num_style == 0) {

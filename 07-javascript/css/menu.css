@@ -89,7 +89,7 @@ nav li a:hover{
 nav li a:hover i{
     transform: scale(1.4);
 }
-*::-webkit-scrollbar {;
+*::-webkit-scrollbar {
     width: 14px;
   }
 
