@@ -140,19 +140,24 @@
             background: url(images/arrays/btn-delete.svg) no-repeat center;
         }
 
+        div.wrapper{
+            overflow-x: scroll;
+            width: 380px;
+        }
+
         section figure.result{
             display: flex;
             flex-direction: row;
+            flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
-            width: 380px;
             margin: auto;
             gap: 30px;
-            overflow: hidden;
             height: 81px;
             margin-top: 40px;
         }
         section figure.result div{
+            background-size: contain !important;
             height: 50px;
             width: 50px;
             border-radius: 20px;
@@ -205,8 +210,10 @@
                 <input class="action" type="checkbox">
                 <input class="nposition" type="number" placeholder="Positions" min="0" max="99">
             </nav>
-            <button class=" btn btn-add"></button>     
+            <button class=" btn btn-add"></button>   
+            <div class="wrapper">  
             <figure class="result"></figure>
+            </div>
         </section>
     </main>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
