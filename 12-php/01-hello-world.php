@@ -20,7 +20,7 @@
           <a class="nav-link" aria-current="page" href="index.php">Main Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">01 Hello World</a>
+          <a class="nav-link active" aria-current="page" href="#">01- Hello World</a>
         </li>
       </ul>
     </div>

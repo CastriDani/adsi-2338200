@@ -10,7 +10,7 @@ let aciertos            = 0
 let temporizador        = false
 let timer               = 30
 let timerInicial        = timer
-let tiempoRegresivoId     = null
+let tiempoRegresivoId   = null
 // Apuntando adocumentoo html
 let msotrarMovimientos  = document.getElementById('movimientos')
 let msotrarAciertos     = document.getElementById('aciertos')

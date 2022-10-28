@@ -10,11 +10,13 @@
 | 3. CSS 2.1    | Style Sheets (Presentation)               | [open folder](03-css/)        |
 | 4. CSS 3      | Style Sheets (Presentation)               | [open folder](04-css3/)       |
 | 5. PUG        | HTML Preprocessor                         | [open folder](05-pug/)        |
-| 5. SASS       | CSS Preprocessor                          | [open folder](06-sass/)       |
+| 6. SASS       | CSS Preprocessor                          | [open folder](06-sass/)       |
 | 7. Javascript | Programming Language (Clien-Side)         | [open folder](07-javascript/) |
 | 8. jQuery     | Library Javascript (Clien-Side)           | [open folder](08-jQuery/)     |
-| 12. PHP       | Server Programming Language (Clien-Side)  | [open folder](12-php/)     |
-
+| 10. Bootstrap | Framework CSS                             | [open folder](10-bootstrap/)  |
+| 11. Tailwind  | Framework CSS                             | [open folder](11-tailwind/)      |
+| 12. PHP       | Server Programming Language (Clien-Side)  | [open folder](12-php/)        |
+| 13. SQL       | Structured Query Language                 | [open folder](13-sql/)        |
 ---
 
 ![EZ](https://fondosmil.com/fondo/38640.jpg)
