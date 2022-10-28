@@ -4,330 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main Menu ADSI</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=Roboto:wght@300;400;900&display=swap');
-
-        /*HEADER*/
-        body{
-            font-family: 'Roboto', sans-serif;
-            background-color: #27262c;
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        body {
+            background: -webkit-linear-gradient(aqua,lightcyan);
+            color: #333;
+            font-family: 'Poppins';
+            min-height: 100vh;
         }
-        img.nav_image{
-            width: 40px;
-            height: 40px;
+        h1 {
+            text-align: center;
         }
-        .nav{
-            background-color: #fff;
-            height: 90px;
-            color: #27262c;
-        }
-        .nav_logo{
-            font-size: 1.5em;
-            font-weight: 900;
-        }
-        .nav_container{
+        nav {
             display: flex;
-            height: 100%;
-            width: 90%;
-            margin: 0 auto;
-            justify-content: space-between;
-            align-items: center;
-            
+            flex-direction: column;
+            margin: 40px auto;
+            gap: 10px;
+            width: 400px;
         }
-
-        .nav_menu{
-            display:grid ;
-            grid-auto-flow: column;
-            gap: 3em;
-            font-weight: 400;
-        }
-        .nav_item{
-            color: #27262c;
+        nav a:link,
+        nav a:visited {
+            background-color: #00000099;
+            color: #fff;
+            border-radius: 40px;
             text-decoration: none;
-            --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+            text-align: left;
+            padding: 10px;
+            transition: background 0.2s ease-in;
         }
-        .nav_item::after{
-            content: '';
-            display: block;
-            background: #27262c;
-            width: 90%;
-            margin-top: 3px;
-            height: 3px;
-            clip-path: var(--clippy);
-            transition: clip-path .5s;
+        nav a:hover {
+            transform: scale(1.1);
+            background-color: #000000cc;
         }
-
-        .nav_item:hover{
-            --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        }
-
-        .nav_label, .nav_input{
-            display: none;
-        }
-        
-        @media (max-width: 840px){
-            .nav_label{
-                display: block;
-                cursor: pointer;
-               
-            }
-            
-            .nav_menu{
-                position: fixed;
-                top: 80px;
-                bottom: 0;
-                background: #d0e6ff;
-                width: 97.8%;
-                left: 8px;
-                display: flex;
-                justify-content: space-evenly;
-                flex-direction: column;
-                align-items: center;
-                clip-path: circle(0 at center);
-                transition: clip-path 1s ease-in-out;
-                z-index: 9;
-            }
-            .nav_input:checked + .nav_menu{
-            clip-path: circle(100% at center);
-            z-index: 10;
-            }
-        }
-    /*------------*/
-    /*BODY*/
-        .html5{
-            font-size: 1.8rem;
-        }
-        .html{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: 200px;
-            width: 1200px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .css3{
-            font-size: 1.8rem;
-        }
-        .css{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: 200px;
-            width: 1200px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .java{
-            font-size: 1.8rem;
-        }
-        .js{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: 200px;
-            width: 1200px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .fig{
-            font-size: 1.8rem;
-        }
-        .figma{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: 200px;
-            width: 1200px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-
-        @media (max-width: 1216px) {
-        .html5{
-            font-size: 1.8rem;
-        }
-        .html{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 800px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .css3{
-            font-size: 1.8rem;
-        }
-        .css{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 800px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .java{
-            font-size: 1.8rem;
-        }
-        .js{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 800px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .fig{
-            font-size: 1.8rem;
-        }
-        .figma{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 800px;
-            font-size: 1.5rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        }
-        @media (max-width: 830px){
-            .html5{
-            font-size: 1.2rem;
-        }
-        .html{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 400px;
-            font-size: 1rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .css3{
-            font-size: 1.2rem;
-        }
-        .css{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 400px;
-            font-size: 1rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .java{
-            font-size: 1.2rem;
-        }
-        .js{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 400px;
-            font-size: 1rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-        }
-        .fig{
-            font-size: 1.2rem;
-        }
-        .figma{
-            position: relative;
-            display: block;
-            margin: 40px auto;
-            background-color: #fff;
-            height: auto;
-            width: 400px;
-            font-size: 1rem;
-            text-align: center;
-            border: 3px solid #d0e6ff;
-            
-        }
-        }
-    /*------------*/
     </style>
 </head>
-<header>
-    <nav class="nav">
-        <nav class="nav_container">
-            <h1 class="nav_logo">Daniel C.A</h1>
-
-            <label for="menu" class="nav_label">
-                <img src="images_index/menu_hamburguer.svg" class="nav_image">
-            </label>
-            <input type="checkbox" id="menu" class="nav_input">
-
-            <div class="nav_menu">
-                <a href="01-emmet/" class="nav_item">Emmet</a>
-                <a href="02-html/" class="nav_item">HTML</a>
-                <a href="03-css/" class="nav_item">CSS 2.1</a>
-                <a href="04-css3/" class="nav_item">CSS 3</a>
-                <a href="05-pug/" class="nav_item">PUG</a>
-                <a href="06-sass/" class="nav_item">SASS</a>
-                <a href="07-javascript/" class="nav_item">JavaScript</a>
-                <a href="08-jQuery/" class="nav_item">jQuery</a>
-                <a href="12-php/" class="nav_item">PHP</a>
-                <a href="13-sql/" class="nav_item">SQL</a>
-            </div>
-        </nav>
-    </nav>
-</header>
 <body>
-    <nav class="body_container">
-    <div class="html">
-        <h1 class="html5">HTML5</h1>
-        <p>
-            HTML (Hypertext Markup Language) is the most basic component of the Web. Define the meaning and structure of web content. In addition to HTML, other technologies are generally used to describe the appearance/presentation of a web page (CSS) or the functionality/behavior (JavaScript).
-        </p>
-    </div>
-    <div class="css">
-        <h1 class="css3">CSS</h1>
-        <p>
-            CSS stands for Cascading Style Sheets. Basically, it is a language that manages the design and presentation of web pages, that is, how they look when a user visits them. It works together with the HTML language that takes care of the basic content of the pages.
-            They are called "cascading" style sheets because you can have multiple sheets and one of them with properties inherited properties.
-        </p>
-    </div>
-    
-    <div class="js">
-        <h1 class="java">JavaScript</h1>
-        <p>
-            JavaScript is a programming or scripting language that allows you to implement complex functions on web pages, every time a web page does more than just sit there and display static information for you to see, it displays timely content updates, interactive maps , 2D/3D graphics animation, scrolling video player machines, etc.
-        </p>
-    </div>
-    <div class="figma">
-        <h1 class="fig">FIGMA</h1>
-        <p>
-            Figma is a primarily web-based vector graphics editor and prototyping tool, with additional offline features enabled by desktop applications on macOS and Windows.
-        </p>
-    </div>
+    <h1>List of Themes - ADSI 2338200</h1>
+    <nav>
+        <a href="01-emmet/">01 - Emmet</a>
+        <a href="02-html/">02 -  HTML</a>
+        <a href="03-css/">03 - CSS 2.1</a>
+        <a href="04-css3/">04 - CSS 3</a>
+        <a href="05-pug/">05 - PUG</a>
+        <a href="06-sass/">06 - SASS</a>
+        <a href="07-javascript/">07 - JavaScript</a>
+        <a href="08-jQuery/">08 - jQuery</a>
+        <!-- <a href="09-vuejs/">09 - VUE JS</a> -->
+        <a href="10-bootstrap/">10 - Bootstrap</a>
+        <a href="11-tailwind/">11 - Tailwind</a>
+        <a href="12-php/">12 - PHP</a>
+        <a href="13-sql/">13 - SQL</a>
+        <a href="14-pdo/">14 - PDO</a>
+        <a href="15-cms/">15 - CMS</a>
+        <a href="16-oop/">16 - OOP</a>
     </nav>
 </body>
-<footer>
-
-</footer>
 </html>
