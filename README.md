@@ -3,8 +3,8 @@
 
 ---
 
- Theme | Description | Link
-| --- | --- | --- |
+|     Theme     |              Description                  |              Link             |
+| ------------- |------------------------------------------ | ----------------------------- |
 | 1. Emmet      | Improves workflow in HTML/CSS             | [open folder](01-emmet/)      |
 | 2. HTML       | Markup Language (Structure)               | [open folder](02-html/)       |
 | 3. CSS 2.1    | Style Sheets (Presentation)               | [open folder](03-css/)        |
@@ -20,7 +20,8 @@
 | 14. PDO       | PHP Data Objects                          | [open folder](14-pdo/)        |
 | 15. CMS       | Content Management System                 | [open folder](15-cms/)        |
 | 16. OPP       | Object Oriented Programming               | [open folder](16-oop/)        |
+| ------------- |------------------------------------------ | ----------------------------- |
 
 ---
 
-![EZ](https://fondosmil.com/fondo/38640.jpg)
+![EZ](https://p4.wallpaperbetter.com/wallpaper/676/293/313/programmer-wallpaper-preview.jpg)

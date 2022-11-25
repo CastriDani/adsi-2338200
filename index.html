@@ -8,8 +8,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
         body {
-            background: -webkit-linear-gradient(aqua,lightcyan);
-            color: #333;
+            background-color:#212121 ;
+            color: #fff;
             font-family: 'Poppins';
             min-height: 100vh;
         }
@@ -21,43 +21,108 @@
             flex-direction: column;
             margin: 40px auto;
             gap: 10px;
-            width: 400px;
+            width: 10em;
         }
-        nav a:link,
-        nav a:visited {
-            background-color: #00000099;
-            color: #fff;
-            border-radius: 40px;
-            text-decoration: none;
-            text-align: left;
-            padding: 10px;
-            transition: background 0.2s ease-in;
-        }
-        nav a:hover {
-            transform: scale(1.1);
-            background-color: #000000cc;
-        }
+        button {
+            width: 10em;
+            position: relative;
+            height: 3.5em;
+            margin-bottom: 20px;
+            border: 3px ridge #149CEA;
+            outline: none;
+            background-color: transparent;
+            transition: 1s;
+            border-radius: 0.3em;
+            font-size: 16px;
+            font-weight: bold;
+            }
+
+            button::after {
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: 3%;
+                width: 95%;
+                height: 40%;
+                background-color: #212121;
+                transition: 0.5s;
+                transform-origin: center;
+            }
+
+            button::before {
+                content: "";
+                transform-origin: center;
+                position: absolute;
+                top: 80%;
+                left: 3%;
+                width: 95%;
+                height: 40%;
+                background-color: #212121;
+                transition: 0.5s;
+            }
+
+            button:hover::before, button:hover::after {
+                transform: scale(0)
+            }
+
+            button:hover {
+                box-shadow: inset 0px 0px 25px #1479EA;
+            }
+            a {
+                text-decoration: none;
+                color:#fff;
+            }
+
     </style>
 </head>
 <body>
     <h1>List of Themes - ADSI 2338200</h1>
-    <nav>
-        <a href="01-emmet/">01 - Emmet</a>
-        <a href="02-html/">02 -  HTML</a>
-        <a href="03-css/">03 - CSS 2.1</a>
-        <a href="04-css3/">04 - CSS 3</a>
-        <a href="05-pug/">05 - PUG</a>
-        <a href="06-sass/">06 - SASS</a>
-        <a href="07-javascript/">07 - JavaScript</a>
-        <a href="08-jQuery/">08 - jQuery</a>
-        <!-- <a href="09-vuejs/">09 - VUE JS</a> -->
-        <a href="10-bootstrap/">10 - Bootstrap</a>
-        <a href="11-tailwind/">11 - Tailwind</a>
-        <a href="12-php/">12 - PHP</a>
-        <a href="13-sql/">13 - SQL</a>
-        <a href="14-pdo/">14 - PDO</a>
-        <a href="15-cms/">15 - CMS</a>
-        <a href="16-oop/">16 - OOP</a>
-    </nav>
+        <nav>
+            <button>
+                <a href="01-emmet">01 - emmet</a>
+            </button>
+            <button>
+                <a href="02-html">02 - html</a>
+            </button>
+            <button>
+                <a href="03-css">03 - css</a>
+            </button>
+            <button>
+                <a href="04-css3">04 - css3</a>
+            </button>
+            <button>
+                <a href="05-pug">05 - pug</a>
+            </button>
+            <button>
+                <a href="06-sass">06 - sass</a>
+            </button>
+            <button>
+                <a href="07-javascript">07 - javascript</a>
+            </button>
+            <button>
+                <a href="08-jQuery">08 - jQuery</a>
+            </button>
+            <button>
+                <a href="10-bootstrap">10 - bootstrap</a>
+            </button>
+            <button>
+                <a href="11-tailwind">11 - tailwind</a>
+            </button>
+            <button>
+                <a href="12-php">12 - php</a>
+            </button>
+            <button>
+                <a href="13-sql">13 - sql</a>
+            </button>
+            <button>
+                <a href="14-pdo">14 - pdo</a>
+            </button>
+            <button>
+                <a href="15-cms">15 - cms</a>
+            </button>
+            <button>
+                <a href="16-mvc">16 - mvc</a>
+            </button>
+        </nav>
 </body>
 </html>
